@@ -1,0 +1,38 @@
+body
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    background: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: #1C2833;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: #1C2833;
+}
+
+
+.wallpaper
+{
+    background-image: url("https://i.imgur.com/XqQXZQH.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    
+}
