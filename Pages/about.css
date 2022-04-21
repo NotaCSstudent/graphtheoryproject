@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@font-face 
+{
+    font-family: 'Source Code Pro', monospace;
+    src: url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+}
+
+div /* root */
+{
+    font-family: 'Source Code Pro', monospace;
+}
+
+body
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    background: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background: #1C2833;
+}
+
+.container
+{
+    display: flex;
+    
+}
+
+.item
+{
+    flex-grow: 1;
+    height : 100px;
+    
+}
+
+.item + .item
+{
+    margin-left: 2%;
+}
+
+.secondcontainer 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item2
+{
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%;
+}
+
+
+.thirdcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.item3
+{
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%;
+}
