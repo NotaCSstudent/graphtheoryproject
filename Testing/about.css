@@ -1,5 +1,11 @@
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -14,6 +20,7 @@
   background-size: cover;
   background-position: center;
   animation: bounceIn 1s;
+  overflow: hidden;
 }
 
 
@@ -46,28 +53,103 @@
 {
   width: 50%;
   height: 50%;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(228, 222, 222, 0.448);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   padding: 20px;
+  border-color: #fff;
 }
 
 .container .box h1
 {
   color: white;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .container .box p
 {
+  font-family: 'Lato', sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
 }
 
+
+
+.container2
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+ .navbar
+ {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 25px 0;
+
+ }
+
+
+nav
+{
+    flex: 1;
+    text-align: center;
+
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 30px;
+    list-style: none;
+
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding : 10px;
+    transition: 1s;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+nav ul li a:hover
+{
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+
+
+#videocap
+{
+  position:fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(45deg, white, black);
+ 
+
+}
